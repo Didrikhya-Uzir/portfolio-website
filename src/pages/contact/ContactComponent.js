@@ -18,8 +18,7 @@ const phoneSection = contactPageData.phoneSection;
 export default function Contact(props) {
   const theme = props.theme;
   return (
-    <div className="contact-main">
-      <Header theme={theme} />
+    <div className="contact-main" id="contact">
       <div className="basic-contact">
         <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">

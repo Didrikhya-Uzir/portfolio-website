@@ -14,8 +14,7 @@ import { competitiveSites } from "../../portfolio";
 export default function Education(props) {
   const theme = props.theme;
   return (
-    <div className="education-main">
-      <Header theme={theme} />
+    <div className="education-main" id="education">
       <div className="basic-education">
         <Fade bottom duration={2000} distance="40px">
           <div className="heading-div">
@@ -36,7 +35,6 @@ export default function Education(props) {
         <Educations theme={theme} />
         <Certifications theme={theme} />
       </div>
-      <Footer theme={theme} />
       <TopButton theme={theme} />
     </div>
   );

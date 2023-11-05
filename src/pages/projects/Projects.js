@@ -2,8 +2,6 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 
 import "./Projects.css";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
@@ -13,8 +11,7 @@ import ProjectsImg from "./ProjectsImg";
 export default function Projects(props) {
   const theme = props.theme;
   return (
-    <div className="projects-main">
-      <Header theme={theme} />
+    <div className="projects-main" id="project">
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">
@@ -50,7 +47,6 @@ export default function Projects(props) {
         newTab={true}
         theme={theme}
       />
-      <Footer theme={theme} onToggle={props.onToggle} />
       <TopButton theme={theme} />
     </div>
   );

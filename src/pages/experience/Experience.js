@@ -12,7 +12,7 @@ import ExperienceImg from "./ExperienceImg";
 export default function Experience(props) {
   const theme = props.theme;
   return (
-    <div className="experience-main">
+    <div className="experience-main" id="experience">
       <Header theme={theme} />
       <div className="basic-experience">
         <Fade bottom duration={2000} distance="40px">
@@ -44,7 +44,6 @@ export default function Experience(props) {
         </Fade>
       </div>
       <ExperienceAccordion sections={experience["sections"]} theme={theme} />
-      <Footer theme={props.theme} onToggle={props.onToggle} />
       <TopButton theme={props.theme} />
     </div>
   );

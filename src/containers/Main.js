@@ -12,14 +12,18 @@ export default function Main(props) {
   return (
     <div>
       <Router basename="/">
-        <Routes>
+      <Home theme={theme} />
+      <Education theme={theme} />
+      <Projects theme={theme} />
+      <Contact theme={theme} />
+        {/* <Routes>
           <Route exact path="/" element={<Home theme={theme} />} />
           <Route path="/home" element={<Home theme={theme} />} />
           <Route path="/education" element={<Education theme={theme} />} />
           <Route path="/projects" element={<Projects theme={theme} />} />
-          <Route path="/contact" element={<Contact theme={theme} />} />
+          <Route path="/contact" element={<Contact theme={theme} />} /> 
           <Route path="*" element={<Error404 theme={theme} />} />
-        </Routes>
+        </Routes> */}
       </Router>
     </div>
   );

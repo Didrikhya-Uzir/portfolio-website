@@ -26,7 +26,7 @@ export default function Education(props) {
                 Education
               </h1>
               <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                Basic Qualification and Certifcations
+                Coding Sites
               </h3>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />
             </div>

@@ -5,7 +5,7 @@ const greeting = {
   subTitle:
     "A passionate web developer and a data science enthusiast with a keen interest in deep learning, computer vision and natural language processing 🚀 having an experience of building web applications with Flask / FastAPI and some other cool libraries and frameworks.",
   resumeLink:
-    "https://drive.google.com/file/d/1CLZmA9bIbELK0va0qDPxyXAwJkVRpDkF/view?usp=drive_link",
+    "https://drive.google.com/file/d/1RLtLwflTTlJiuXvIav6GfgEaQHF56_PK/view",
   portfolio_repository: "https://github.com/Didrikhya-Uzir/portfolio",
   githubProfile: "https://github.com/Didrikhya-Uzir",
 };
